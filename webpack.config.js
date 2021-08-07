@@ -12,6 +12,7 @@ module.exports = {
       },
     ],
   },
+  plugins: [new Dotenv()],
   resolve: {
     extensions: [".ts", ".js"],
   },
